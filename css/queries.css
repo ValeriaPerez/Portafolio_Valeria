@@ -1,4 +1,4 @@
-@media (min-width: 360px) {
+@media (max-width: 479px) and (min-width: 360px) {
     .img-fondo {
   		background-image: none;
     }
