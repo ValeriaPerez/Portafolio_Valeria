@@ -1,4 +1,4 @@
-@media screen and (min-width: 360px) {
+@media (min-width: 360px) {
     .img-fondo {
   		background-image: none;
     }
@@ -42,4 +42,7 @@
 	.skill{
 		margin-bottom: 25%;
 	}
+	div.black-blue .img-proyect{
+		margin-bottom: 0;
+	} 
 }
