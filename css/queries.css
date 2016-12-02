@@ -1,0 +1,45 @@
+@media screen and (min-width: 360px) {
+    .img-fondo {
+  		background-image: none;
+    }
+    h1 {
+        font-size: 30px;
+        margin-top: 250px;
+    }
+    h2, pyr {
+  		font-size: 15px;
+  		margin-top: 20%;
+	}
+	.contenedor > a > img {
+  		margin: 5px;
+  		width: 37px;
+	}
+	.sobremi {
+ 		 width: 60%;
+	}
+	.txt-sm{
+		font-size: 20px;
+	}
+	.ico-social {
+  		margin: 20px 10px;
+  		height: 35px;
+	}
+	.pdr-frase{
+		font-size: 17px;
+		margin-bottom: 50px;
+		margin-top: 40px;	
+	}
+	.btn-down{
+		margin-bottom: 40px;
+	}
+	.txt-f{
+		margin-bottom: 20px;
+		font-size: 11px;
+	}
+	h4{
+		margin-top: 10px;
+	}
+	.skill{
+		margin-bottom: 25%;
+	}
+}
