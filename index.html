@@ -7,6 +7,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="shortcut icon" href="favi.png">
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet" media="screen">
@@ -14,7 +18,6 @@
 
   <link href="https://fonts.googleapis.com/css?family=Cormorant|Cormorant+Garamond" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Julius+Sans+One|Quicksand:300|Syncopate" rel="stylesheet">
-
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" />
 </head>
   <body>
@@ -68,6 +71,9 @@
             <p class="txt-sm">Yo soy esa que puede escribir sentimientos en 140 caracteres, pero también soy esa a la que 140 caracteres no le bastan. Así que he aquí el inicio de esto llamado Tecnologia, me gusta transmitir lo que siento, demostrarlo… porque si no lo hago, me ahogo.</p>
 
             <p class="txt-sm pdb">El mundo de la Tecnologia me ha demostrado que el codigo tambien es, hoy en dia, el mejor pincel, la mejor obra para cambiar el mundo.</p>
+            <a href="cv.pdf" download>
+              <button class="btn btn-success btn-down mgb center-block"> DESCARGA MI CV </button>
+            </a>
           </div>
         </div>
       </div>
@@ -254,88 +260,78 @@
     </section>
 
     <section><!-- PASATIEMPOS -->
-      <div class="row back-blue">
+      <div class="row back-black">
         <div class="col-md-12 pdt pdb">
           <a name="pasatiempos"></a>
           <h2 class="white">Pasatiempos</h2>
           <hr class="white">
         </div>
-      </div>
-      <div class="row back-blue">
-        <div class="pro-ilus">
-          <div class="col-md-3 col-xs-12 mgt">
-            <img src="img/proyectos/ilustraciones/gato2.jpg" alt="Gato Acuarela" class="img-draw">
-          </div>
-          <div class="col-md-3 col-xs-12 mgt text-center white">
-            <h4>Gato (acuarela)</h4>
-            <p class="txt-p hidden-xs ">De mis primeros trabajos en acuarela. Representa a una nueva integrante en mi vida justo cuando otra partio.</p>
-           </div>
-          <div class="col-md-3 col-xs-12 mgt"> 
-            <img src="img/proyectos/ilustraciones/huevo2.jpg" alt="Huevo Colores" class="img-draw">
-          </div>
-          <div class="col-md-3 col-xs-12 mgt text-center white">
-            <h4>HuevoCartoon (colores)</h4>
-            <p class="txt-p hidden-xs">Animacion que siempre me ha gustado y que muchas veces he usado para mis trabajos en la escuela, este es un ejemplo claro.</p>
+      
+        <div class="row">
+          <div class="col-md-12">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
+
+              </ol>
+
+        <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="img/proyectos/ilustraciones/gato2.jpg" alt="Gato Acuarelado">
+                  <p class="txt-p hidden-xs ">De mis primeros trabajos en acuarela. Representa a una nueva integrante en mi vida justo cuando otra partio.</p>
+                </div>
+
+                <div class="item">
+                  <img src="img/proyectos/ilustraciones/huevo2.jpg" alt="Huevo Colores">
+                </div>
+
+                <div class="item">
+                  <img src="img/proyectos/ilustraciones/jaguar2.jpg" alt="Jaguar gises Pastel">
+                </div>
+
+                <div class="item">
+                  <img src="img/proyectos/ilustraciones/mulan2.jpg" alt="Mulan Colores">
+                </div>
+
+                <div class="item">
+                  <img src="img/proyectos/ilustraciones/men2.jpg" alt="Hombre Grafito">
+                </div>
+
+                <div class="item">
+                  <img src="img/proyectos/ilustraciones/jana2.jpg" alt="Jana Acuarelas">
+                </div>
+
+                <div class="item">
+                  <img src="img/proyectos/ilustraciones/buho.jpg" alt="Buho Colores">
+                </div>
+
+                <div class="item">
+                  <img src="img/proyectos/ilustraciones/woman2.jpg" alt="Mujer Grafito">
+                </div>
+              </div>
+
+        <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="row back-blue">
-        <div class="pro-ilus">
-          <div class="col-md-3 col-xs-12 mgt"> 
-            <img src="img/proyectos/ilustraciones/jaguar2.jpg" alt="Jaguar Gises Pastel" class="img-draw">
-          </div>
-          <div class="col-md-3 col-xs-12 mgt text-center white">
-            <h4>Jaguar (gises pastel)</h4>
-            <p class="txt-p hidden-xs">A esta amiga la plasme con gises pastel, tengo esa debilidad por dibujar animales, mas a los felinos. Recuerdo que me emociono mucho el proceso cuando la hice. Representa una parte interna de mi.</p>
-          </div>
-          <div class="col-md-3 col-xs-12 mgt"> 
-            <img src="img/proyectos/ilustraciones/mulan2.jpg" alt="Mulan Colores" class="img-draw">
-          </div>
-          <div class="col-md-3 col-xs-12 mgt text-center white">
-            <h4>Mulan (colores)</h4>
-            <p class="txt-p hidden-xs">Muchas veces me he sentido como una guerrera y justamente como ella, he luchado por mi familia e he ido en contra de lo que la sociedad cree. Los colores son una de mis tecnicas mejor dominada y favorita, porque no es facil y requiere de mucha paciencia.</p>
-          </div>
-        </div>  
-      </div>
-
-      <div class="row back-blue">
-        <div class="pro-ilus">
-          <div class="col-md-3 col-xs-12 mgt"> 
-             <img src="img/proyectos/ilustraciones/men2.jpg" alt="Hombre Grafito" class="img-draw">
-          </div>
-          <div class="col-md-3 col-xs-12 mgt text-center white">
-            <h4>Hombre (grafito)</h4>
-            <p class="txt-p hidden-xs">Desde siempre la figura masculina me ha tenido confundida con respecto sus actos, El grafito es nada simple y este fue uno de mis primeros intentos para dibujar rostros.</p>
-          </div>
-          <div class="col-md-3 col-xs-12 mgt"> 
-            <img src="img/proyectos/ilustraciones/jana2.jpg" alt="Jana Acuarela" class="img-draw">
-          </div>
-          <div class="col-md-3 col-xs-12 mgt text-center white">
-            <h4>Jana (acuarela)</h4>
-            <p class="txt-p hidden-xs">Las relaciones en mi vida han sido complejas, Jana es el sentimiento mas real y natural, La acuarela siempre ha sido una tecnica dificil para mi y por eso mismo decidi hacerla asi.</p>
-          </div>
-        </div>  
-      </div>
-
-      <div class="row back-blue">
-        <div class="pro-ilus">
-          <div class="col-md-3 col-xs-12 mgb mgt"> 
-            <img src="img/proyectos/ilustraciones/buho.jpg" alt="Buho Colores" class="img-draw">
-          </div>
-          <div class="col-md-3 col-xs-12 mgb mgt text-center white">
-            <h4>Buho (colores)</h4>
-            <p class="txt-p hidden-xs">En mi vida he tenido personas increibles y muchas de ellas han concluido grandes etapas de su vida, justamente eso representa esta pequeña, Colores porque aunque no es facil requeire de muchas capas y mucho tiempo para lograr el objeticvo deseado.</p>
-          </div>
-          <div class="col-md-3 col-xs-12 mgb mgt"> 
-            <img src="img/proyectos/ilustraciones/woman2.jpg" alt="Mujer Grafito" class="img-draw">
-          </div>
-          <div class="col-md-3 col-xs-12 mgb mgt text-center white">
-            <h4>Mujer (grafito)</h4>
-            <p class="txt-p hidden-xs">El rostro de una mujer no siempre dice lo que realmente es.</p>
-          </div>
-        </div>  
-      </div>
+      </div>  
     </section>
 
     <section><!-- CONTACTAME -->
@@ -361,9 +357,6 @@
               <img src="img/iconos/gmail.png" alt="G Mail" class="ico-social">
             </a>
             <h3 class="mgb mgt pdl-frase pdr-frase text-center"><em>"¿Quieres vender agua azucarada toda tu vida, o quieres venir conmigo y cambiar el mundo?..."</em> — Steve Jobs</h3>
-            <a href="cv.pdf" download>
-              <button class="btn btn-success btn-down"> DESCARGA MI CV </button>
-            </a>
           </div>
         </div>
       </div>

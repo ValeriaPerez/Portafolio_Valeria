@@ -262,6 +262,16 @@ hr {
   margin-top: 5%;
   border-radius: 10px;
 }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 30%;
+    margin: auto;
+}
+
+.carousel-inner {
+  background-color: black;
+  margin-left:0px ; 
+}
 
 .img-draw {
   width: 60%;
